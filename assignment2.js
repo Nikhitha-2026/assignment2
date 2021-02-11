@@ -35,6 +35,9 @@ else if(marks<30){
 
 
 var num=1;
+
 for(num=1;num<=20;num++){
-	
+	var mul=5
+	var result=mul*num;
+	console.log(`${mul}*${num}=${result}`);
 }
